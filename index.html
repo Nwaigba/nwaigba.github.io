@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MelodyMatch - Find Your Melody</title>
+  <link rel="stylesheet" href="styles/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <header>
+    <h1>MelodyMatch App</h1>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="upload.php">Upload</a></li>
+        <li><a href="search.php">search</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="matchingResults.php">Matching Results</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="faq.php">FAQ/Help</a></li>
+        <li><a href="privacy.php">Privacy</a></li>
+        <li><a href="userProfile.php">Profile</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="signup.php">signup</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to MelodyMatch</h1>
+      <p>Discover matching melodies and explore new musical horizons.</p>
+      <a href="upload.html" class="cta-button">Get Started</a>
+    </section>
+    <section class="features">
+      <div class="feature">
+        <h2>Upload Your Melody</h2>
+        <p>Upload your own melody and let us find similar melodies for you.</p>
+      </div>
+      <div class="feature">
+        <h2>Explore Matches</h2>
+        <p>Listen to melodies that match yours and expand your music library.</p>
+      </div>
+      <div class="feature">
+        <h2>Easy and Fun</h2>
+        <p>Our user-friendly interface makes discovering melodies a breeze.</p>
+      </div>
+    </section>
+  </main>
+  <!-- contact Page -->
+  <main>
+    <section class="contact">
+      <center> <h1>Contact Us</h1></center>
+      <p>Have questions or feedback? We'd love to hear from you!</p>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 MelodyMatch. All rights reserved.</p>
+  </footer>
+</body>
+</html>
