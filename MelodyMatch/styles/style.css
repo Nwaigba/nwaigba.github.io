@@ -1,0 +1,537 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and default text color */
+  body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header/navigation */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+ header h1{
+text-align: center;
+/* align-content: center; */
+}  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+
+  /*Upload page*/
+  .upload-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .upload-form input[type="file"],
+  .upload-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .upload-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/* Matching Results */
+.matching-results {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .matching-results h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .result {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .result h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .result p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* User Profile */
+  .user-profile {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .user-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .user-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .user-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .uploaded-melodies h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .melody {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .melody h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .melody p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+/* Search Page */
+.search {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .search h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search form {
+    margin-bottom: 20px;
+  }
+  
+  .search form input[type="text"] {
+    width: 80%;
+    padding: 10%;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-results h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .result {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .result h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .result p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Style the about page content */
+main {
+    padding: 20px;
+  }
+  
+  .about {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  /* Style the Contact main content */
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+/* Style the FAQ main content */
+main {
+    padding: 20px;
+  }
+  
+  .faq {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+/* Style the Privacy main content */
+
+  .terms,
+  .privacy {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .terms h1,
+  .privacy h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .terms p,
+  .privacy p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  
+  /* Style the Authentication page main content */
+  main {
+    padding: 20px;
+  }
+  
+  .auth {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .auth h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth form {
+    margin-top: 15px;
+  }
+  
+  .auth label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .auth p{
+    margin-top: 10px;
+    text-decoration: solid;
+  }
+  .auth input[type="email"],
+  .auth input[type="text"],
+  .auth input[type="file"],
+  .auth input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Flash message styles */
+.flash-message {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding around the message */
+  border-radius: 4px; /* Rounded corners */
+  margin-bottom: 15px; /* Space below the message */
+  text-align: center; /* Center the text */
+}
+
+/* Additional styles for visual effect */
+.flash-message .fade-out {
+  animation: fadeOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      display: none;
+  }
+}
+
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and set fonts */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style the main container */
+.container {
+  display: flex;
+}
+
+/* Style the side navigation bar */
+.side-nav {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  height: 100vh; /* Set a fixed height to fill the viewport */
+}
+
+.side-nav ul {
+  list-style: none;
+  display: block;
+  padding: 10px;
+}
+
+.side-nav li {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the main content area */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
