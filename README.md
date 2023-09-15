@@ -9,10 +9,10 @@ The music recommendation app is intended to solve the problem of discovering new
 
 # Explore MelodyMatch:
 
-Try MelodyMatch Now (https://github.com/Nwaigba/nwaigba.github.io)
-Read Our Blog Article (https://www.linkedin.com/posts/ezeh-emmanuel-07163a105_github-nwaigbamelodymatchgithubio-activity-7107384573247799297-Zl4J?utm_source=share&utm_medium=member_desktop)
+[Try MelodyMatch Now] (https://github.com/Nwaigba/nwaigba.github.io)
+[Read Our Blog Article] (https://www.linkedin.com/posts/ezeh-emmanuel-07163a105_github-nwaigbamelodymatchgithubio-activity-7107384573247799297-Zl4J?utm_source=share&utm_medium=member_desktop)
 Authors:
-Ezeh Echezona E. - LinkedIn[https://www.linkedin.com/in/ezeh-emmanuel-07163a105/] - GitHub[github.com/nwaigba]
+Ezeh Echezona E. - (LinkedIn[https://www.linkedin.com/in/ezeh-emmanuel-07163a105/]) - (GitHub[github.com/nwaigba])
 
 # Installation
 To run MelodyMatch locally, follow these steps:
