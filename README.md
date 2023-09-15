@@ -3,15 +3,16 @@
 # MelodyMatch
 Introduction
 MelodyMatch is a music web app.
-The music recommendation app is intended to solve the problem of discovering new music that aligns with a user's preferences and tastes. In a world with a vast amount of music available across different genres, eras, and cultures, it can be overwhelming for users to find songs that they might enjoy. The app aims to address this challenge by providing personalized recommendations based on songs the user already likes.
+The music recommendation app is intended to solve the problem of discovering new music that aligns with a user's preferences and tastes. <br> In a world with a vast amount of music available across different genres, eras, and cultures, it can be overwhelming for users to find songs that they might enjoy. The app aims to address this challenge by providing personalized recommendations based on songs the user already likes.
 
 
 
 # Explore MelodyMatch:
 
-[Try MelodyMatch Now](https://github.com/Nwaigba/nwaigba.github.io)
+[Try MelodyMatch Now](https://github.com/Nwaigba/nwaigba.github.io) <br>
 [Read Our Blog Article](https://www.linkedin.com/posts/ezeh-emmanuel-07163a105_github-nwaigbamelodymatchgithubio-activity-7107384573247799297-Zl4J?utm_source=share&utm_medium=member_desktop)
-Authors:
+
+# Authors:
 Ezeh Echezona E. -[LinkedIn](https://www.linkedin.com/in/ezeh-emmanuel-07163a105/) -[GitHub](github.com/nwaigba)
 
 # Installation
